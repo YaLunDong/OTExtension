@@ -61,7 +61,7 @@ Some compilation flags can be set in `ot/OTconstants.h`.
 
 ###
 If there is some errors about cannot link boost,add 'find_package(Boost 1.66.0 REQUIRED COMPONENTS thread system)' to the CMakeLists.txt.
-And you had better make sure that your g++ >= 8 , cmake >= 3.14 , boost >= 1.66.0
+And you had better make sure that your g++ >= 8 , cmake >= 3.14.
 ###
 
 
