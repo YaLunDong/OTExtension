@@ -21,6 +21,7 @@ elseif(NOT ENCRYPTO_utils_FOUND AND NOT TARGET ENCRYPTO_utils::encrypto_utils)
     add_subdirectory(extern/ENCRYPTO_utils)
 endif()
 find_package(Threads REQUIRED)
+find_package(Boost 1.66.0 REQUIRED COMPONENTS thread system)
 
 
 add_library(otextension
